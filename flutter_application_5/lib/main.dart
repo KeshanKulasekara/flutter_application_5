@@ -154,6 +154,13 @@ class fineapp extends StatelessWidget{
               style: ElevatedButton.styleFrom(minimumSize: Size(450, 50)),
               ),
             ),
+            SizedBox(height: buttonSpacing,),
+            Center(
+              child: ElevatedButton(onPressed:(){},
+              child: Text ("Fine Rule 16", style: TextStyle(fontSize: 20),),
+              style: ElevatedButton.styleFrom(minimumSize: Size(450, 50)),
+              ),
+            ),
           ],
           ),
         ), 
